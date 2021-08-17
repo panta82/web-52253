@@ -22,6 +22,7 @@
     "prettier": "latest",
     "prettier-plugin-import-sort": "0.0.7",
     "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
   },
   "keywords": [],
@@ -35,5 +36,8 @@
     ".js, .jsx": {
       "style": "module"
     }
+  },
+  "dependencies": {
+    "talented-logger": "0.4.0-beta"
   }
 }

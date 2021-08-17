@@ -1,3 +1,3 @@
-export const add = (a: number, b: number): number => {
-  return a + b;
-};
+import { logger } from './lib/logger';
+
+logger.info('Test');
